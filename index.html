@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" ></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav-head" id="main-nav">
+        <div class="logo">LOGEESHWARA PA</div>
+        <div>
+            <ul class="nav-links">
+            <li><a href="#section_about">ABOUT</a></li>
+            <li><a href="#section_experience">EXPERIENCE</a></li>
+            <li><a href="#section_project">PROJECTS</a></li>
+            <li><a href="#section_contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="nav-head" id="side-nav">
+        <div class="logo">LOGEESHWARA PA</div>
+        <div class="side-menu">
+            <div class="side-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="side-menulinks">
+                    <li><a href="#section_about"  onclick="toggleMenu()">ABOUT</a></li>
+                    <li><a href="#section_experience"  onclick="toggleMenu()">EXPERIENCE</a></li>
+                    <li><a href="#section_project"  onclick="toggleMenu()">PROJECTS</a></li>
+                    <li><a href="#section_contact"  onclick="toggleMenu()">CONTACT</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section_id" id="section_id">
+        <div class="content_container">
+            <img src="logeeshwara pa img.jpg" alt="logesh_photo">
+        </div>
+
+        <div class="content_text">
+            <p class="content_para1">Hello, I'm</p>
+            <h1 class="content_h1" id="typewriter"></h1>
+            <p class="content_para2">PYTHON FULL STACK DEVELOPER</p>
+            <div class="content_btn">
+                <button class="btn btn-color0" 
+                onclick="window.open('LOGEESHWARA RESUME FULL STACK DEVELOPER.pdf')">DOWNLOAD CV</button>
+                <button class="btn btn-color1"
+                onclick="location.href='#section_contact'">CONTACT</button>
+            </div>
+
+            <div class="content_social" id="content_social_id">
+                <img src="linked in img.png" alt="linkedin_img"
+                class="content_icon linkedin" onclick="location.href='http://linkedin.com/in/logeeshwara-pa-5402aa200'">
+                <img src="github img.png" alt="github_img"
+                class="content_icon github" onclick="location.href='https://github.com/logesh23-arch'">
+            </div>
+        </div>
+    </section>
+
+    <section class=" section_about" id="section_about">
+        <p class="about_title0">Get To Know More</p>
+        <h1 class="about_title1">About Me</h1>
+        <div class="about_container">
+            <div class="aboutimg_container">
+                <img src="logeeshwara pa img 2.jpg" alt="logeeshwara_img" class="about_img">
+            </div>
+            <div class="about_main">
+                <div class="about_content">
+                    <div class="about_content_container">
+                        <img src="experience img.jpg" alt="experienceimg" class="about_icon">
+                        <h3>EXPERIENCE</h3>
+                        <p>Fresher <br > Python fullstack developer</p>
+                        <a href="cousrse.pdf" class="view-btn">View Certificate</a>
+                    </div>
+                    <div class="about_content_container">
+                        <img src="education img.jpg" alt="educationimg" class="about_icon">
+                        <h3>EDUCATION</h3>
+                        <p id="p">B.E Mechanical Engineering <br > CGPA - 8.45</p>
+                        <a href="education.pdf" class="view-btn">View Certificate</a>
+                    </div>
+                    <div class="about_description">
+                        <p>Aspiring Web Developer with a solid
+                             foundation in Python and web
+                              technologies. Passionate about 
+                              learning and creating dynamic, 
+                              user-friendly applications. 
+                              Proficient in core web development languages (HTML, CSS, JavaScript) and frameworks (React.js, Django), and database management using MySQL along with
+                              hands-on experience in 
+                              building responsive websites 
+                              and basic projects. Seeking an 
+                              opportunity to grow and contribute to innovative solutions in a 
+                              collaborative environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#section_experience"> <img src="down arrow img.png" alt="icon" class="icon_arrow"></a>
+    </section>
+
+    <section class="section_experience" id="section_experience">
+        <p class="experience_title0">Explore My</p>
+        <h1 class="experience_title1">Skills</h1>
+        <div class="experience_main">
+                <div class="experience_content_container">
+                    <h2 class="experience_subtitle">FRONTEND DEVELOPMENT</h2>
+                    <div class="article_container">
+                        <article>
+                            <img src="tick img.png" alt="tick_img" class="experience_icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick img.png" alt="tick_img" class="experience_icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick img.png" alt="tick_img" class="experience_icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <P>Basics</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick img.png" alt="tick_img" class="experience_icon">
+                            <div>
+                                <h3>ReactJS</h3>
+                                <P>Basics</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick img.png" alt="tick_img" class="experience_icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <P>Basics</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            <div class="experience_content_container">
+                <h2 class="experience_subtitle">BACKEND DEVELOPMENT</h2>
+                <div class="article_container">
+                    <article>
+                        <img src="tick img.png" alt="tick_img" class="experience_icon">
+                        <div>
+                            <h3>Python</h3>
+                            <P>Basics</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="tick img.png" alt="tick_img" class="experience_icon">
+                        <div>
+                            <h3>Django(Web Framework)</h3>
+                            <P>Basics</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="tick img.png" alt="tick_img" class="experience_icon">
+                        <div>
+                            <h3>MY SQL <br >(Data Base)</h3>
+                            <P>Basics</P>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+        <a href="#section_project"> <img src="down arrow img.png" alt="icon" class="icon_arrow arrow2" ></a>
+    </section>
+
+    <section class="section_project section_experience" id="section_project">
+        <p class="experience_title0">Browse My Recent</p>
+        <h1 class="experience_title1">PROJECTS</h1>
+        <div class="experience_main">
+            <div class="experience_content_container project_content">
+                <div class="article_container">
+                    <img src="post img.png" alt="img" class="project_img">
+                </div>
+                <h2 class="experience_subtitle">Second Hand Car</h2>
+                <p class="experience_sub">Used: [HTML, CSS, Java Script]</p>
+                <div class="project_main_btn">
+                    <button class="btn project_btn" 
+                    onclick="location.href='https://github.com/logesh23-arch'">GITHUB</button>
+                    <button class="btn project_btn" 
+                    onclick="location.href='https://logesh23-arch.github.io/CAR-WEBSITE/'">OPEN</button>
+                </div>
+            </div>
+            <div class="experience_content_container project_content">
+                <div class="article_container">
+                    <img src="post 2 img.png" alt="img" class="project_img">
+                </div>
+                <h2 class="experience_subtitle">Hotel Website</h2>
+                <p class="experience_sub">Used: [HTML, CSS, Java Script, Python, Django, MY SQL]</p>
+                <div class="project_main_btn">
+                    <button class="btn project_btn" 
+                    onclick="location.href='https://github.com/logesh23-arch'">GITHUB</button>
+                    <button class="btn project_btn"
+                    onclick="location.href='https://logesh23-arch.github.io/hotelwebsite/'">OPEN</button>
+                </div>
+            </div>
+            <div class="experience_content_container project_content">
+                <div class="article_container">
+                    <img src="post 3 img.png" alt="img" class="project_img img3">
+                </div>
+                <h2 class="experience_subtitle">To Do List</h2>
+                <p class="experience_sub">Used: [React js]</p>
+                <div class="project_main_btn btn3">
+                    <button class="btn project_btn1" 
+                    onclick="location.href='https://github.com/logesh23-arch'">GITHUB</button>
+                </div>
+            </div>
+        </div>
+        <a href="#section_contact"> <img src="down arrow img.png" alt="icon" class="icon_arrow arrow3"></a>
+    </section>
+
+    <section class="section_experience section_project" id="section_contact">
+        <h2 class="experience_title1">CONTACT ME</h2>
+        <form id="contactform" onsubmit="sendEmail(event)">
+            <div class="contact_main">
+                <div class="contact_container field">
+                    <input type="text" placeholder="FULL NAME" id="name"
+                    class="item" autocomplete="off" required>
+                </div>
+                <div class="contact_container field">
+                    <input type="email" placeholder="EMAIL ADDRESS" id="email"
+                    class="item" autocomplete="off" required>
+                </div>
+            </div>
+            <div class="contact_main">
+                <div class="contact_container field">
+                    <input type="tel" placeholder="PHONE NUMBER" id="ph"
+                    class="item" autocomplete="off" pattern="[0-9]+" required>
+                </div>
+                <div class="contact_container field">
+                    <input type="text" placeholder="SUBJECT" id="subject"
+                    class="item" autocomplete="off" required>
+                </div>
+            </div>
+            <div class="text_area field">
+                <textarea name="" id="message" cols="30" rows="10"
+                placeholder="ABOUT" class="item1" autocomplete="off" required></textarea>
+            </div>
+            <button  class="btn btn-color0" id="btn" type="submit">SEND</button>
+        </form>
+        <a href="#section_id"> <img src="up arrow.png" alt="icon" class="icon_arrow arrow3"></a>
+    </section>
+
+    <footer class="section_experience section_footer">
+        <div class="footer_bar">
+            Copyright © 2024 LOGEESHWARA PA. All rights reserved.
+          </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
